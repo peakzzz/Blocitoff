@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bloc Base Project</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body ng-app="">
+
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDk6aK-DJNNoxZ9jO_EzYHY-a53ZUlYGgQ",
+        authDomain: "blocitoff-firebase.firebaseapp.com",
+        databaseURL: "https://blocitoff-firebase.firebaseio.com",
+        projectId: "blocitoff-firebase",
+        storageBucket: "blocitoff-firebase.appspot.com",
+        messagingSenderId: "25641216368"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <script src="/scripts/app.js"></script>
+</body>
+</html>
